@@ -3,9 +3,9 @@ Name:		podbrowser
 Summary:	A full-featured Perl Documentation Browser.
 Version:	0.08
 Release:	0.1
-Group:		Applications/Programming
+Group:		Development/Tools
 License:	GPL
-Source0:	http://jodrell.net/files/podbrowser/podbrowser-0.08.tar.gz
+Source0:	http://jodrell.net/files/podbrowser/%{name}-%{version}.tar.gz
 # Source0-md5:	59f11c50e03f348e41de8058d0a30e0b
 URL:		http://jodrell.net/projects/podbrowser
 BuildArch:	noarch
@@ -34,4 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/*
+%{_datadir}/applications/podbrowser.desktop
+%{_iconsdir}/*/*/*/*
+%{_mandir}/man1/*
+%{_datadir}/podbrowser
