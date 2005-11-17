@@ -1,0 +1,22 @@
+--- podbrowser-0.08/podbrowser.desktop~	2005-11-17 01:52:30.859257416 +0100
++++ podbrowser-0.08/podbrowser.desktop	2005-11-17 01:56:18.163701888 +0100
+@@ -1,16 +1,13 @@
+ [Desktop Entry]
+ Version=1.0
+ Encoding=UTF-8
+-Name=Pod Browser
++Name=POD browser
+ Comment=Browse Perl Documentation
+ Type=Application
+ Exec=podbrowser
+ TryExec=
+ Icon=podbrowser.png
+-X-GNOME-DocPath=
+ Terminal=false
+-Name[en_GB]=Pod Browser
+-GenericName[en_GB]=
+-Comment[en_GB]=Browse Perl Documentation
+ StartupNotify=true
+-Categories=GNOME;Application;Development;X-Red-Hat-Base;
++Categories=GTK;Development;
++# vi:encoding=utf-8

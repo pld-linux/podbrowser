@@ -7,6 +7,7 @@ Group:		Development/Tools
 License:	GPL
 Source0:	http://jodrell.net/files/podbrowser/%{name}-%{version}.tar.gz
 # Source0-md5:	59f11c50e03f348e41de8058d0a30e0b
+Patch0:		%{name}-desktop.patch
 URL:		http://jodrell.net/projects/podbrowser
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,6 +19,7 @@ pragmatic modules and the default and user-installed modules.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__make} PREFIX=%{_prefix}
