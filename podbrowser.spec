@@ -29,12 +29,14 @@ u¿ytkownika.
 %patch0 -p1
 
 %build
-%{__make} PREFIX=%{_prefix}
+%{__make} \
+	PREFIX=%{_prefix}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%makeinstall PREFIX=$RPM_BUILD_ROOT%{_prefix}
+%{__make} install \
+	PREFIX=$RPM_BUILD_ROOT%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
