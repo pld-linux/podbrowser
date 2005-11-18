@@ -2,12 +2,12 @@
 Summary:	A full-featured Perl Documentation Browser
 Summary(pl):	W pe³ni funkcjonalna przegl±darka dokumentacji perlowej
 Name:		podbrowser
-Version:	0.08
+Version:	0.09
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://jodrell.net/files/podbrowser/%{name}-%{version}.tar.gz
-# Source0-md5:	59f11c50e03f348e41de8058d0a30e0b
+# Source0-md5:	240e1a31df328ee4029724b2d4acecfe
 Patch0:		%{name}-desktop.patch
 URL:		http://jodrell.net/projects/podbrowser
 BuildArch:	noarch
