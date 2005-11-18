@@ -1,12 +1,15 @@
---- podbrowser-0.08/podbrowser.desktop~	2005-11-17 01:52:30.859257416 +0100
-+++ podbrowser-0.08/podbrowser.desktop	2005-11-17 01:56:18.163701888 +0100
-@@ -1,16 +1,13 @@
+diff -Nur podbrowser-0.08~/podbrowser.desktop podbrowser-0.08/podbrowser.desktop
+--- podbrowser-0.08~/podbrowser.desktop	2004-09-02 17:36:58.000000000 +0200
++++ podbrowser-0.08/podbrowser.desktop	2005-11-18 19:24:24.200416224 +0100
+@@ -1,16 +1,15 @@
  [Desktop Entry]
  Version=1.0
  Encoding=UTF-8
 -Name=Pod Browser
 +Name=POD browser
++Name[pl]=Przeglądarka POD
  Comment=Browse Perl Documentation
++Comment[pl]=Przeglądanie dokumentacji Perla
  Type=Application
  Exec=podbrowser
  TryExec=
