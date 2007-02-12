@@ -1,6 +1,6 @@
 %include 	/usr/lib/rpm/macros.perl
 Summary:	A full-featured Perl Documentation Browser
-Summary(pl):	W pe³ni funkcjonalna przegl±darka dokumentacji perlowej
+Summary(pl.UTF-8):   W peÅ‚ni funkcjonalna przeglÄ…darka dokumentacji perlowej
 Name:		podbrowser
 Version:	0.09
 Release:	1
@@ -18,11 +18,11 @@ PodBrowser is a documentation browser for Perl. You can view the
 documentation for Perl's builtin functions, its "perldoc" pages,
 pragmatic modules and the default and user-installed modules.
 
-%description -l pl
-PodBrowser to przegl±darka dokumentacji do Perla. Pozwala przegl±daæ
-dokumentacjê do funkcji wbudowanych Perla, strony "perldoc", modu³ów
-pragmatycznych oraz modu³ów domy¶lnych i zainstalowanych przez
-u¿ytkownika.
+%description -l pl.UTF-8
+PodBrowser to przeglÄ…darka dokumentacji do Perla. Pozwala przeglÄ…daÄ‡
+dokumentacjÄ™ do funkcji wbudowanych Perla, strony "perldoc", moduÅ‚Ã³w
+pragmatycznych oraz moduÅ‚Ã³w domyÅ›lnych i zainstalowanych przez
+uÅ¼ytkownika.
 
 %prep
 %setup -q
