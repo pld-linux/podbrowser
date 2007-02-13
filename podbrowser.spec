@@ -1,6 +1,6 @@
 %include 	/usr/lib/rpm/macros.perl
 Summary:	A full-featured Perl Documentation Browser
-Summary(pl.UTF-8):   W pełni funkcjonalna przeglądarka dokumentacji perlowej
+Summary(pl.UTF-8):	W pełni funkcjonalna przeglądarka dokumentacji perlowej
 Name:		podbrowser
 Version:	0.09
 Release:	1
